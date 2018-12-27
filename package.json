@@ -4,7 +4,7 @@
   "description": "proxy server to connect four modules",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Aristotle-35/Jonathan-proxy/issues"
   },
-  "homepage": "https://github.com/Aristotle-35/Jonathan-proxy#readme"
+  "homepage": "https://github.com/Aristotle-35/Jonathan-proxy#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }

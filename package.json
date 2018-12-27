@@ -1,0 +1,19 @@
+{
+  "name": "jonathan-proxy",
+  "version": "1.0.0",
+  "description": "proxy server to connect four modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aristotle-35/Jonathan-proxy.git"
+  },
+  "author": "Jonathan Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aristotle-35/Jonathan-proxy/issues"
+  },
+  "homepage": "https://github.com/Aristotle-35/Jonathan-proxy#readme"
+}

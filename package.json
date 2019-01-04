@@ -4,7 +4,8 @@
   "description": "proxy server to connect four modules",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./server.js"
+    "start": "nodemon ./server.js",
+    "webpack": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,24 @@
   },
   "homepage": "https://github.com/Aristotle-35/Jonathan-proxy#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "grunt": "^1.0.3",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
   }
 }

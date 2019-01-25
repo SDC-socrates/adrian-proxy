@@ -1,8 +1,18 @@
 require('newrelic');
 const express = require('express');
 const path = require('path');
+const React = require('react');
+const ReactDom = require('react-dom/server');
 const app = express();
 const port = process.env.PORT || 3005;
+const Carousel = require('../Kyle--Carousel/client/public/bundle-ssr');
+const layoutP1 = require('./templates/p1');
+const layoutP2 = require('./templates/p2');
+
+app.use(/\//, (req, res) => {
+  var element = React.createElement(Carousel.default);
+  res.end(layoutP1 + ReactDom.renderToString(element) + layoutP2);
+});
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(/\/\d+\//, express.static(path.join(__dirname, 'public')));

@@ -1,3 +1,4 @@
+module.exports = `
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,13 +18,5 @@
     <div id='description'></div>
     <div id='checkout'></div>
     <div id='review'></div>
-    <div id='carousel'></div>
-    <!-- <script src='http://localhost:3000/bundle.js'></script>
-    <script src='http://localhost:3001/bundle.js'></script>
-    <script src='http://localhost:3002/bundle.js'></script> -->
-    <script>
-      ReactDOM.render(React.createElement(Carousel), 
-      document.getElementById('carousel'));
-    </script>
-  </body>
-</html>
+    <div id='carousel'>
+`;

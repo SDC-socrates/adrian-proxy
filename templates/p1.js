@@ -15,8 +15,5 @@ module.exports = `
     <link rel='stylesheet' type='text/css' href="/reviewStyle.css">
   </head>
   <body>
-    <div id='description'></div>
-    <div id='checkout'></div>
-    <div id='review'></div>
     <div id='carousel'>
 `;

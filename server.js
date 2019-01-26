@@ -12,9 +12,6 @@ const layoutP2 = require('./templates/p2');
 
 app.use(morgan("tiny"));
 
-// console.log(path.resolve('./public/'));
-// app.use('/58/', express.static('./public/'));
-
 app.use(/\/\d+\//, (req, res) => {
   var element = React.createElement(Carousel.default);
   res.end(layoutP1 + ReactDom.renderToString(element) + layoutP2);
